@@ -1,5 +1,5 @@
 import psycopg2
-from psycopg2 import sql
+import time
 
 def get_sec(time_str): # turns the time of the video into seconds
     """Get Seconds from time."""
@@ -7,7 +7,7 @@ def get_sec(time_str): # turns the time of the video into seconds
     return int(m) * 60 + int(s)
 
 
-def title_keys_clean(titulo): # turns the title of the video to a splited list
+def keys_clean(titulo): # turns the title of the video to a splited list
     titleKeys = titulo.lower()
     titleKeys = titleKeys.split()
     return titleKeys
