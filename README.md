@@ -21,3 +21,5 @@ https://www.youtube.com/channel/UCnRAP9tagAeknvyp27S6PCw/playlists
 https://www.youtube.com/watch?v=EFZ1B70FMc0&list=PLsyobOqUhkthjvmA_s7tTjb7V2EiwYYGC&index=10
 
 https://stackoverflow.com/questions/50899692/most-dominant-color-in-rgb-image-opencv-numpy-python
+
+https://github.com/ytdl-org/youtube-dl/issues/25977 (coreção bug like e dislike)
