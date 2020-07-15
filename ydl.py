@@ -30,15 +30,14 @@ def youtubedl_scrape(href):
     time_duration = content['duration']
 
     img_url = ((content['thumbnails'])[-1])['url']
-    print(img_url)
-    image_thumb = url_to_image(img_url)
-    image_faces = url_to_image(img_url)
+
+    image = url_to_image(img_url)
 
     categories = content['categories']
     description = content['description']
     description_keys_words = keys_clean(description)
 
-    values = [href, channel, title, title_key_words, views_, date_, likes, dislikes, like_rate, comments_, tags, time_duration, look_thumb_img(image_thumb), look_for_faces(image_faces), categories, description, description_keys_words]
+    values = [href, channel, title, title_key_words, views_, date_, likes, dislikes, like_rate, comments_, tags, time_duration, look_thumb_img(image), look_for_faces(image), categories, description, description_keys_words]
     return values
 
 #TESTANDO
