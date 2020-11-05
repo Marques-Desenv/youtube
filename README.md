@@ -23,3 +23,6 @@ https://www.youtube.com/watch?v=EFZ1B70FMc0&list=PLsyobOqUhkthjvmA_s7tTjb7V2EiwY
 https://stackoverflow.com/questions/50899692/most-dominant-color-in-rgb-image-opencv-numpy-python
 
 https://github.com/ytdl-org/youtube-dl/issues/25977 (coreção bug like e dislike)
+
+https://www.youtube.com/watch?v=UU6v80aDMV4 (pegando os comentários via API youtube)
+https://github.com/filhoweuler/yt-comments-feeling/blob/master/explore.py (pegando os comentários via API youtube)
