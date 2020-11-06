@@ -26,3 +26,8 @@ https://github.com/ytdl-org/youtube-dl/issues/25977 (coreção bug like e dislik
 
 https://www.youtube.com/watch?v=UU6v80aDMV4 (pegando os comentários via API youtube)
 https://github.com/filhoweuler/yt-comments-feeling/blob/master/explore.py (pegando os comentários via API youtube)
+
+Part 1
+https://towardsdatascience.com/strategies-to-be-a-successful-youtuber-extensive-youtube-exploratory-analysis-part-1-2-40eee29554e6
+Parte 2
+https://towardsdatascience.com/strategies-to-be-a-successful-youtuber-extensive-youtube-exploratory-analysis-part-2-2-6862cd4f40be
