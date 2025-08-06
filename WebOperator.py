@@ -69,10 +69,10 @@ def collectLinks():
     global driver
 
     print('Collecting links')
+    link_elements = driver.find_elements_by_xpath("//a[@href]")
     hrefs = []
-    href = driver.find_elements_by_xpath("//a[@href]")
-    for href in hrefs:
-        hrefs.append(str(href.get_attribute("href")))
+    for element in link_elements:
+        hrefs.append(element.get_attribute("href"))
     driver.quit()
     return hrefs
 
